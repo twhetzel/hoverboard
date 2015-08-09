@@ -21349,8 +21349,8 @@ iron-selector:not(.narrow-layout) #main ::content [paper-drawer-toggle] {
         },
         attached: function() {
             this.photos = {
-                big: '/images/backgrounds/2014_1.jpg',
-                small: ['/images/backgrounds/2014_2.jpg', '/images/backgrounds/2014_3.jpg']
+                big: '../../images/backgrounds/2014_1.jpg',
+                small: ['../../images/backgrounds/2014_2.jpg', '../../images/backgrounds/2014_3.jpg']
             };
         }
     });
@@ -21495,28 +21495,28 @@ iron-selector:not(.narrow-layout) #main ::content [paper-drawer-toggle] {
                 surname: 'Dodson',
                 title: 'Polymer team',
                 company: 'Google',
-                photoUrl: '/images/people/rob_dodson.jpg'
+                photoUrl: '../../images/people/rob_dodson.jpg'
             }, {
                 id: 2,
                 name: 'Dawid',
                 surname: 'Ostrowski',
                 title: 'Developer Relations Program Manager',
                 company: 'Google',
-                photoUrl: '/images/people/dawid_ostrowski.jpg'
+                photoUrl: '../../images/people/dawid_ostrowski.jpg'
             }, {
                 id: 3,
                 name: 'Magnus',
                 surname: 'Hyttsten',
                 title: 'Developer Advocate',
                 company: 'Google',
-                photoUrl: '/images/people/magnus_hyttsten.jpg'
+                photoUrl: '../../images/people/magnus_hyttsten.jpg'
             }, {
                 id: 4,
                 name: 'Adriana',
                 surname: 'Cerundolo',
                 title: 'Community Manage',
                 company: 'Google',
-                photoUrl: '/images/people/adriana_cerundolo.png'
+                photoUrl: '../../images/people/adriana_cerundolo.png'
             }];
         },
         _randomOrder: function(array) {
@@ -21589,18 +21589,18 @@ iron-selector:not(.narrow-layout) #main ::content [paper-drawer-toggle] {
                 logos: [{
                     name: 'Google',
                     url: 'https://www.google.com.ua/intl/en/about/',
-                    logoUrl: '/images/partners/google.svg',
+                    logoUrl: '../../images/partners/google.svg',
                 }]
             }, {
                 title: 'Diamond sponsors',
                 logos: [{
                     name: 'Eleks',
                     url: 'http://eleks.com/',
-                    logoUrl: '/images/partners/eleks.svg'
+                    logoUrl: '../../images/partners/eleks.svg'
                 }, {
                     name: 'SoftServe',
                     url: 'https://softserve.ua/en/',
-                    logoUrl: '/images/partners/softserve.svg'
+                    logoUrl: '../../images/partners/softserve.svg'
                 }]
             }];
         }
@@ -21759,7 +21759,7 @@ iron-selector:not(.narrow-layout) #main ::content [paper-drawer-toggle] {
                     <a href="http://lviv.gdg.org.ua" target="_blank">GDG Lviv</a>
                 </span>
                 <div class="self-end">
-                    <img class="gdg-logo" src="/images/gdg-logo.svg" alt="GDG Lviv">
+                    <img class="gdg-logo" src="../images/gdg-logo.svg" alt="GDG Lviv">
                 </div>
             </div>
         </div>
@@ -21914,7 +21914,7 @@ iron-selector:not(.narrow-layout) #main ::content [paper-drawer-toggle] {
         }
     </style>
     <template>
-        <google-map class="fit" zoom="15" latitude="49.809841" longitude="23.982805" disable-zoom="" disable-default-ui="">
+        <google-map class="fit" zoom="15" latitude="49.809841" longitude="23.982805" styles="[[options]]" disable-zoom="" disable-default-ui="">
             <google-map-marker latitude="49.809841" longitude="23.972805"></google-map-marker>
         </google-map>
         <div class="container card-container relative layout horizontal">
@@ -21946,28 +21946,23 @@ iron-selector:not(.narrow-layout) #main ::content [paper-drawer-toggle] {
         attached: function() {
             this.options = [{
                 stylers: [{
-                    lightness: 40
+                    'lightness': 40
                 }, {
-                    visibility: 'on'
+                    'visibility': 'on'
                 }, {
-                    gamma: 0.9
+                    'gamma': 0.9
                 }, {
-                    weight: 0.4
+                    'weight': 0.4
                 }]
             }, {
-                elementType: 'labels',
-                stylers: [{
-                    visibility: 'on'
+                'elementType': 'labels',
+                'stylers': [{
+                    'visibility': 'on'
                 }]
             }, {
-                featureType: 'water',
-                stylers: [{
-                    color: '#5dc7ff'
-                }]
-            }, {
-                featureType: 'road',
-                stylers: [{
-                    visibility: 'off'
+                'featureType': 'water',
+                'stylers': [{
+                    'color': '#5dc7ff'
                 }]
             }];
         }
