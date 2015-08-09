@@ -1,0 +1,167 @@
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+<dom-module id="footer-block">
+    <style>
+        :host {
+            display: block;
+        }
+
+        .footer {
+            min-height: 200px;
+            background: #fff;
+            color: #757575;
+            font-size: 0.875rem;
+        }
+
+        .gdg-logo {
+            height: 30px;
+            display: block;
+        }
+
+        a {
+            color: inherit !important;
+        }
+
+        nav > * {
+            margin: 20px 10px 0;
+        }
+
+        nav > paper-menu-button {
+            padding: 0;
+            top: 1px;
+            font-weight: 500;
+        }
+
+        nav > paper-menu-button iron-icon {
+            margin-top: -3px;
+        }
+
+        @media (min-width: 768px) {
+            nav {
+                flex-direction: row !important;
+                justify-content: flex-end !important;
+                align-self: flex-end !important;
+            }
+        }
+
+        .footer-backtotop {
+            margin-bottom: 20px;
+        }
+
+        .footer-content {
+            padding: 16px;
+        }
+
+        .footer-links-container {
+            padding-top: 0;
+        }
+
+        .link-block {
+            margin-top: 13px;
+            padding: 0;
+        }
+
+        .link-block li {
+            margin-bottom: 9px;
+            list-style-type: none;
+        }
+
+        .link-block-title {
+            font-size: 1.3em;
+            font-weight: 300;
+        }
+
+        .link-block a {
+            font-weight: 100;
+        }
+
+        .link-block a:hover {
+            text-decoration: underline;
+        }
+
+        @media (min-width: 768px) {
+            .footer-backtotop {
+                margin-bottom: 0;
+            }
+            .footer-content {
+                padding: 32px;
+                flex: 1;
+            }
+            .footer-bottom {
+                padding: 18px 32px;
+            }
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #eee;
+        }
+    </style>
+    <template>
+        <div class="footer layout vertical">
+            <div class="footer-content layout horizontal justified">
+                <g:plusone size="medium" width="300" annotation="inline" href="http://devfest.gdg.org.ua/"></g:plusone>
+                <paper-button class="footer-backtotop">
+                    <a href="#navbar">Back
+                          <iron-icon icon="icons:expand-less"></iron-icon>
+                    </a>
+                </paper-button>
+            </div>
+            <div class="footer-content footer-links-container">
+                <nav class="layout horizontal flex">
+                    <div class="flex">
+                        <span class="link-block-title block">Links</span>
+                        <ul class="link-block">
+                            <li><a href="https://developers.google.com/" target="_blank">Google Developers</a></li>
+                            <li><a href="http://gdg-devfest-ua.appspot.com/" target="_blank">GDG DevFest Ukraine 2013</a></li>
+                            <li><a href="/2014">GDG DevFest Ukraine 2014</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="flex">
+                        <span class="link-block-title block">Partnership</span>
+                        <ul class="link-block">
+                            <li><a href="/assets/GDG_DevFest_Ukraine_2015_Partnership_Proposition.pdf" target="_blank">Partnership Proposition</a></li>
+                            <li><a href="https://drive.google.com/open?id=0B3UBk7uINu2jRkdpQm5RTU9BQ2s" target="_blank">Media Kit</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="flex">
+                        <span class="link-block-title block">Contacts</span>
+                        <ul class="link-block">
+                            <li><a href="mailto:devfest@gdg.org.ua">devfest@gdg.org.ua</a></li>
+                        </ul>
+                        <div class="icons-wrapper align-pb-block">
+                            <a href="https://plus.google.com/102444623953913144164" target="_blank">
+                                <paper-icon-button icon="app-icons:glus"></paper-icon-button>
+                            </a>
+                            <a href="https://www.facebook.com/GDGLviv" target="_blank">
+                                <paper-icon-button icon="app-icons:facebook"></paper-icon-button>
+                            </a>
+                            <a href="https://twitter.com/gdglviv" target="_blank">
+                                <paper-icon-button icon="app-icons:twitter"></paper-icon-button>
+                            </a>
+                            <a href="https://www.linkedin.com/company/google-developers-group-lviv" target="_blank">
+                                <paper-icon-button icon="app-icons:linkedin"></paper-icon-button>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="footer-content footer-bottom layout horizontal justified">
+                <span class="flex self-center">
+                    &copy; 2015 Based on <a href="https://github.com/gdg-x/hoverboard" target="_blank">Project Hoverboard</a>. Designed and created by <a href="https://plus.google.com/+OlehZasadnyy/about" target="_blank">Oleh Zasadnyy</a> &middot;
+                    <a href="http://lviv.gdg.org.ua" target="_blank">GDG Lviv</a>
+                </span>
+                <div class="self-end">
+                    <img class="gdg-logo" src="/images/gdg-logo.svg" alt="GDG Lviv">
+                </div>
+            </div>
+        </div>
+    </template>
+</dom-module>
+
+<script>
+    Polymer({
+        is: 'footer-block'
+    });
+</script>
