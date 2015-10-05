@@ -21,7 +21,7 @@
         <div class="container relative layout vertical-horizontal">
             <iron-ajax auto url="[[source]]" handle-as="json" on-response="feedLoaded"></iron-ajax>
             <div class="flex-5">
-                <h4 class="heading">What's up <a href="https://www.google.com/#q=%23gdgsv">#gdgsv</a></h4>
+                <h4 class="heading">What's up <a href="https://www.google.com/?q=%23gdgsv">#gdgsv</a></h4>
                 <social-post id="post" author="{{author}}" text="{{text}}" when="{{when}}" canonicalUrl="https://twitter.com/" sign="@"></social-post>
             </div>
             <span class="flex"></span>
@@ -40,7 +40,8 @@
                         <paper-icon-button icon="app-icons:twitter"></paper-icon-button>
                     </a>
                     <a href="http://www.meetup.com/gdg-silicon-valley/" target="_blank">
-                        <paper-icon-button icon="app-icons:linkedin"></paper-icon-button>
+                        <!-- <paper-icon-button icon="app-icons:linkedin"></paper-icon-button> -->
+                        <img src="../../../images/meetup@2x.jpg" alt="MeetUp" height="26" width="52" align="middle">
                     </a>
                 </div>
             </div>
