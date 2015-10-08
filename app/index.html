@@ -77,10 +77,11 @@
                 <paper-menu class="list" attr-for-selected="data-route" selected="{{route}}" on-iron-select="onMenuSelect">
                     <a data-route="#!/home" href="/">Home</a>
                     <a data-route="#!/blog" href="/blog">Blog</a>
-                    <a data-route="#!/speakers" href="/speakers">Speakers</a>
+                    <!-- <a data-route="#!/speakers" href="/speakers">Speakers</a> -->
                     <!-- <a data-route="contact" href="/contact">Contact</a> -->
                 </paper-menu>
             </paper-header-panel>
+            
             <div class="scroll" main>
                 <!-- Main Content -->
                 <div class="content">
@@ -108,7 +109,7 @@
                                             </div>
                                         </div>
                                         <div class="flex relative right-section">
-                                            <iron-image class="fit" src="./images/google_building.png" sizing="contain"></iron-image>
+                                            <iron-image class="fit" src="./images/google_building-1.png" sizing="contain"></iron-image>
                                         </div>
                                     </div>
                                 </div>
@@ -117,13 +118,16 @@
                                     <paper-fab class="section-fab-right" icon="icons:event"></paper-fab>
                                 </a>
                             </hero-block>
-                            <statistics-block></statistics-block>
-                            <featured-people source="../../data/featured-speakers.json">
+                            <!-- <statistics-block></statistics-block> --> 
+
+                            <!-- Add back when speaker list is full -->
+                            <!-- <featured-people source="../../data/featured-speakers.json">
                                 <h4 class="heading">Rockstar Speakers</h4>
                             </featured-people>
+                            -->
                             <call-to-action></call-to-action>
                             <photo-block></photo-block>
-                            <tickets-block></tickets-block>
+                            <!-- <tickets-block></tickets-block> -->
                             <latest-news source="../../data/blog.json"></latest-news>
                             <social-feed source="http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=7200"></social-feed>
 
@@ -148,18 +152,20 @@
                             <blog-block id="blog" class="container-atop" source="../../data/blog.json"></blog-block>
                             <footer-block></footer-block>
                         </section>
+                        
                         <section data-route="speakers">
                             <hero-block class="section-shadow container-before-atop" style="background: #00BCD4; color: #fff;">
                                 <div class="top-section">
                                     <div class="title-wrapper layout horizontal">
                                         <h3 class="self-end">Speakers</h3>
                                     </div>
-                                    <!-- <paper-fab class="section-fab-right" icon="social:share"></paper-fab> -->
+                                    <!-- <paper-fab class="section-fab-right" icon="social:share"></paper-fab> --> 
                                 </div>
                             </hero-block>
                             <people-block id="people-block" class="container-atop" source="../../data/speakers.json" sessions-source="../../data/sessions.json"></people-block>
                             <footer-block></footer-block>
                         </section>
+
                         <section data-route="code-of-conduct">
                             <hero-block class="section-shadow container-before-atop" style="background: #455A64; color: #fff;">
                                 <div class="top-section">
