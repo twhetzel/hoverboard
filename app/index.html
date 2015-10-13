@@ -77,7 +77,7 @@
                 <paper-menu class="list" attr-for-selected="data-route" selected="{{route}}" on-iron-select="onMenuSelect">
                     <a data-route="#!/home" href="/">Home</a>
                     <a data-route="#!/blog" href="/blog">Blog</a>
-                    <!-- <a data-route="#!/speakers" href="/speakers">Speakers</a> -->
+                    <a data-route="#!/speakers" href="/speakers">Speakers</a>
                     <!-- <a data-route="contact" href="/contact">Contact</a> -->
                 </paper-menu>
             </paper-header-panel>
@@ -120,13 +120,11 @@
                                     <paper-fab class="section-fab-right" icon="icons:event"></paper-fab>
                                 </a>
                             </hero-block>
-                            <!-- <statistics-block></statistics-block> --> 
-
-                            <!-- Add back when speaker list is full -->
-                            <!-- <featured-people source="../../data/featured-speakers.json">
+                            <statistics-block></statistics-block>
+                            <featured-people source="../../data/featured-speakers.json">
                                 <h4 class="heading">Rockstar Speakers</h4>
                             </featured-people>
-                            -->
+                            
                             <call-to-action></call-to-action>
                             <photo-block></photo-block>
                             <!-- <tickets-block></tickets-block> -->
