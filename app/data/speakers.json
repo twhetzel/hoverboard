@@ -1,305 +1,92 @@
 [{
     "id": 1,
-    "name": "Said Tahsin Dane",
-    "title": "Mobile Coder",
-    "company": "Startup Digest",
-    "country": "Turkey",
-    "photoUrl": "../../images/people/said_tahsine_dane.jpg",
-    "bio": "GDE (Google Developer Expert) for Android. Experience with Android (since Cupcake), Google Glass, Android Wear, and (even on!) iOS. Very passionate developer who tries to live on the bleeding edge of technology. Also very interested in mobile UX. <br/><br/>Active member and organizer at GDG Istanbul enjoying organizing various conferences and hackathons. Also a part of GDG[X] - a GDG related open-source organization.",
-    "tags": ["Android"],
+    "name": "Macy Kuang",
+    "title": "Founder",
+    "company": "Miaomiao Games",
+    "country": "Canada",
+    "photoUrl": "../../images/people/macy_kuang.jpg",
+    "bio": "Macy is the founder of Miaomiao Games, GDE for Wearables, host at Code to Create and organizer for AndroidTO conference. She is passionate about gaming and IOT.",
+    "tags": ["Google Cardboard"],
     "badges": [{
         "name": "GDE",
-        "description": "Android Google Developer Expert",
-        "link": "https://developers.google.com/experts/people/said-tahsin-dane"
-    }, {
-        "name": "GDG",
-        "description": "Google Developers Group Istanbul",
-        "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
+        "description": "Android Wear / GlassGoogle Developer Expert",
+        "link": "https://developers.google.com/experts/people/macy-kuang"
     }],
     "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/+MacyKuang"
+    }, {
         "name": "Website",
-        "link": "http://www.tasomaniac.com/"
+        "link": "http://macykuang.com/"
+    }, {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/macykuang"
     }, {
         "name": "Twitter",
-        "link": "https://twitter.com/tasomaniac"
-    }, {
-        "name": "GitHub",
-        "link": "https://github.com/tasomaniac"
+        "link": "https://twitter.com/MacyKuang"
     }]
 }, {
     "id": 2,
-    "name": "Mateusz Herych",
-    "title": "Software Engineer",
-    "company": "Base CRM",
-    "country": "Poland",
-    "photoUrl": "../../images/people/mateus_herych.jpg",
-    "bio": "Mateusz is an Android GDE and GDG organizer. Works as Android Developer for Base CRM where he uses his android-abracadabras to make enterprise software users more productive.",
-    "tags": ["Android"],
-    "badges": [{
-        "name": "GDE",
-        "description": "Android Google Developer Expert",
-        "link": "https://developers.google.com/experts/people/mateusz-herych"
-    }, {
-        "name": "GDG",
-        "description": "Google Developers Group Krakow",
-        "link": "https://developers.google.com/groups/chapter/107562802227561437057/"
-    }],
+    "name": "Graham Polley",
+    "title": "Senior Software Engineer",
+    "company": "Shine Technologies",
+    "country": "Australia",
+    "photoUrl": "../../images/people/graham_polley.jpg",
+    "bio": "Graham is a senior software engineer based out of Melbourne Australia. He's passionate about promoting the adoption of cloud technologies into software development, and regularly blogs and gives presentations. Graham has extensive experience in building big data solutions for clients using the Google technology stack, and in particular with BigQuery & Dataflow. Graham works very closely with the GCP engineering team in the US, where he is a member of their cloud platform trusted tester program, and the solutions he helps build are used as internal exemplars of developer use cases. Graham is also a GDE on the GCP.",
+    "tags": ["Google Cloud Platform"],
     "socials": [{
         "name": "Google+",
-        "link": "https://plus.google.com/+MateuszHerych"
-    }, {
-        "name": "Twitter",
-        "link": "https://twitter.com/mherych"
+        "link": "https://plus.google.com/+GrahamPolley"
     }, {
         "name": "LinkedIn",
-        "link": "https://www.linkedin.com/in/herych"
+        "link": "https://www.linkedin.com/in/polleyg"
     }]
 }, {
     "id": 3,
-    "name": "Dmytro Danylyk",
-    "title": "Android Developer",
-    "company": "Timee",
-    "country": "Ukraine",
-    "photoUrl": "../../images/people/dmytro_danylyk.jpeg",
-    "bio": "Dmytro is a finalist of Google Apps Developer Challenge 2012. Author of open source libraries 4000+ stars. When he has free time he writes technical articles. Always trying to share his knowledge & experience on different events. Big fan of android, flat design, stackoverflow, git, Intellij IDEA. Eclipse IDE hater.",
-    "tags": ["Android", "UX"],
+    "name": "Pablo Caif",
+    "title": "Software engineer",
+    "company": "Shine Technologies",
+    "country": "Australia",
+    "photoUrl": "../../images/people/pablo_caif.jpg",
+    "bio": "Pablo is a passionate software engineer who enjoys solving complex problems, and devising simple solutions. He works at Shine Technologies and he is part of a team that uses BigQuery and Dataflow to solve challenging and complex data processing business requirements. Pablo considers that scalability and performance are paramount to developing a great solution, and that is why he has been using Dataflow and BigQuery to bring these solutions to reality.",
+    "tags": ["Google Cloud Platform"],
     "socials": [{
         "name": "Google+",
-        "link": "https://plus.google.com/+DmytroDanylyk"
-    }, {
-        "name": "Twitter",
-        "link": "https://twitter.com/dmytrodanylyk"
-    }, {
-        "name": "Website",
-        "link": "http://www.dmytrodanylyk.com/#/about"
+        "link": "https://plus.google.com/+PabloCaif"
     }]
 }, {
     "id": 4,
-    "name": "Roman Mazur",
-    "title": "Software Engineer",
-    "company": "Stanfy",
-    "country": "Ukraine",
-    "photoUrl": "../../images/people/roman_mazur.jpg",
-    "bio": "Roman has been working with Android for more than 6 years. You can find him delivering fixes and new features to a plenty of Android libraries and frameworks including support library, Robolectric, Madge, Spoon, Retrofit, and Helium. <br/><br/>At Stanfy he is working on a customized Android OS for in-room tablets installed at hotels by KEYPR.",
-    "tags": ["Android"],
+    "name": "Konrad Dzwinel",
+    "title": "Senior Front-End Developer",
+    "company": "Brainly",
+    "country": "Poland",
+    "photoUrl": "../../images/people/konrad_dzwinel.jpg",
+    "bio": "Konrad is a front-end developer at Brainly, Google Developer Expert for Web Technologies and co-organizer of Google Developers Group in Krakow, Poland. Over the years he worked for various startups, consultancies and software houses building websites, hybrid apps and internal tools. After work, he develops Chrome extensions, experiments with various front-end technologies, gives presentations and runs workshops.",
+    "tags": ["Chrome"],
     "badges": [{
-        "name": "GDG",
-        "description": "Google Developers Group Kyiv",
-        "link": "https://developers.google.com/groups/chapter/110301321530950732281/"
+        "name": "GDE",
+        "description": "Chrome Google Developer Expert",
+        "link": "https://developers.google.com/experts/people/konrad-dzwinel"
     }],
     "socials": [{
         "name": "Google+",
-        "link": "https://plus.google.com/+RomanMazur/"
+        "link": "https://plus.google.com/+KonradDzwinel"
     }, {
         "name": "Twitter",
-        "link": "http://twitter.com/roman_mazur"
+        "link": "https://twitter.com/kdzwinel"
     }, {
-        "name": "GitHub",
-        "link": "https://github.com/roman-mazur"
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/kdzwinel/"
     }]
 }, {
     "id": 5,
-    "name": "Michał Tajchert",
-    "title": "CEO",
-    "company": "12Hours.io",
-    "country": "Poland",
-    "photoUrl": "../../images/people/michal_tajchert.jpg",
-    "bio": "Michal is an Android Developer for all kinds of wearables, done programming for things such Oakley Airwave, Glass, Sony Smartwatch, and lately found his place in Android Wear development. He has contributed most of his project to the community and shared his knowledge by organising many of Warsaw GDG meetings.",
-    "tags": ["Android"],
-    "socials": [{
-        "name": "Google+",
-        "link": "https://plus.google.com/+MichalTajchert"
-    }, {
-        "name": "Twitter",
-        "link": "https://twitter.com/tajchert"
-    }, {
-        "name": "GitHub",
-        "link": "https://github.com/tajchert"
-    }, {
-        "name": "Website",
-        "link": "http://tajchert.pl/"
-    }]
-}, {
-    "id": 6,
-    "name": "Yehor Lvivski",
-    "title": "Software Architect",
-    "company": "Spatialkey",
-    "country": "Ukraine",
-    "photoUrl": "../../images/people/yehor_lvivski.jpg",
-    "bio": "Yehor is a passionate front end engineer and UX designer. He likes to make useful tools that help people solve their problems. Currently he is creating a web app that helps insurance companies save money and allows you to find a better and safer place to live.",
-    "tags": ["Web", "Dart"],
-    "socials": [{
-        "name": "Twitter",
-        "link": "https://twitter.com/lvivski"
-    }, {
-        "name": "GitHub",
-        "link": "https://github.com/lvivski"
-    }, {
-        "name": "Website",
-        "link": "http://lvivski.com"
-    }]
-}, {
-    "id": 7,
-    "name": "Valentyn Shybanov",
-    "title": "Software Engineer/Country Manager",
-    "company": "Twinfield",
-    "country": "Ukraine",
-    "photoUrl": "../../images/people/valentyn_shybanov.jpg",
-    "bio": "Valentyn focuses on Polymer and Web Components. In previous roles helped craft design systems for massive enterprise companies, user interfaces for console titles, and even built the occasional enchanted princess game. These days his mission is to fight for a better web and help developers to build great experiences.",
-    "tags": ["Web", "AngularJS"],
-    "badges": [{
-        "name": "GDE",
-        "description": "Cloud Google Developer Expert",
-        "link": "https://developers.google.com/experts/people"
-    },{
-        "name": "GDG",
-        "description": "Google Developers Group Kyiv",
-        "link": "https://developers.google.com/groups/chapter/110301321530950732281/"
-    }],
-    "socials": [{
-        "name": "Google+",
-        "link": "https://google.com/+ValentynShybanov"
-    }, {
-        "name": "Website",
-        "link": "http://olostan.name/"
-    }]
-}, {
-    "id": 8,
-    "name": "Dima Maleev",
-    "title": "Director",
-    "company": "Lviv Code School",
-    "country": "Ukraine",
-    "photoUrl": "../../images/people/dima_maleev.jpg",
-    "bio": "Dima is a developer for about 10 years, making his way from junior to technical architect and manager of complex mobile solutions. In the past .NET developer, ex-leader of \"Lviv .NET User Group\" and one of the organizers of the \"Oh, Mobile!\" community. A fan of mobile technology and javascript. Makes fun talks all around the world and plays american football:)",
-    "tags": ["Web", "V8 Engine"],
-    "socials": [{
-        "name": "Twitter",
-        "link": "https://twitter.com/dimko1"
-    }, {
-        "name": "GitHub",
-        "link": "https://github.com/dimko1"
-    }]
-}, {
-    "id": 9,
-    "name": "Mandy Waite",
-    "title": "Developer Relations Engineer",
-    "company": "Google",
-    "country": "UK",
-    "photoUrl": "../../images/people/mandy_waite.jpg",
-    "bio": "Based in London, UK, Mandy is a Developer Relations Engineer at Google specializing in Container and Cloud technologies and working to make the world a better place for developers building applications for the Cloud. Before Google Mandy worked at Sun Microsystems on performance and scalability of Java and JavaEE and on porting Open Source apps to OpenSolaris. In her spare time Mandy is learning Japanese and likes to play the guitar.",
-    "tags": ["Cloud", "AppEngine", "gRPC", "Kubernetes"],
-    "socials": [{
-        "name": "Google+",
-        "link": "https://plus.google.com/+MandyWaite"
-    }, {
-        "name": "Twitter",
-        "link": "https://twitter.com/tekgrrl"
-    }, {
-        "name": "GitHub",
-        "link": "https://github.com/tekgrrl"
-    }]
-}, {
-    "id": 10,
-    "name": "Roman Herasymenko",
-    "title": "Senior Android Developer",
-    "company": "Yalantis Mobile",
-    "country": "Ukraine",
-    "photoUrl": "../../images/people/roman_herasymenko.jpg",
-    "bio": "Roman is a Senior Android developer at Yatlantis and a co-organizer of GDG Dnipropetrovsk. Roman is interested in software development for cutting edge technologies and devices like Google Glass and Android Wear.",
-    "tags": ["Android"],
-    "badges": [{
-        "name": "GDE",
-        "description": "Android Google Developer Expert",
-        "link": "https://developers.google.com/experts/people/roman-herasymenko"
-    },{
-        "name": "GDG",
-        "description": "Google Developers Group Dnipropetrovsk",
-        "link": "https://developers.google.com/groups/chapter/116033068768596939209/"
-    }],
-    "socials": [{
-        "name": "Google+",
-        "link": "https://plus.google.com/+RomanGerasimenko/"
-    }, {
-        "name": "LinkedIn",
-        "link": "http://ua.linkedin.com/pub/roman-gerasimenko/"
-    }]
-}, {
-    "id": 11,
-    "name": "Hallade Xavier",
-    "title": "Developer Evangelist",
-    "company": "Intel",
-    "country": "France",
-    "photoUrl": "../../images/people/hallade_xavier.jpg",
-    "bio": "Xavier is Developer Evangelist in Intel Software and Service Group in Paris, France. He is helping developers to improve their support for new hardware and technologies backed by Intel, with a focus on the Android NDK, 64-bit and dual-displays.",
-    "tags": ["Android", "NDK"],
-    "badges": [{
-        "name": "GDE",
-        "description": "Android Google Developer Expert",
-        "link": "https://developers.google.com/experts/people/xavier-hallade"
-    }],
-    "socials": [{
-        "name": "Google+",
-        "link": "https://plus.google.com/106834066322753191683/posts"
-    }, {
-        "name": "LinkedIn",
-        "link": "https://www.linkedin.com/in/xavierhallade"
-    }, {
-        "name": "Twitter",
-        "link": "https://twitter.com/ph0b"
-    }, {
-        "name": "Website",
-        "link": "http://ph0b.com/"
-    }]
-}, {
-    "id": 12,
-    "name": "Alex Pazhyn",
-    "title": "UI designer",
-    "company": "Ciklum",
-    "country": "Ukraine",
-    "photoUrl": "../../images/people/alex_pazhyn.jpg",
-    "bio": "Alex is a leading UI designer at Ciklum with more than 7 years of experience in UI design and 3 years of public speaking. His general focus of work is mobile applications and interfaces of IOT.",
-    "tags": ["Android", "UX", "Material Design"],
-    "socials": [{
-        "name": "Google+",
-        "link": "https://plus.google.com/+AlexPazhyn/posts"
-    }, {
-        "name": "LinkedIn",
-        "link": "http://www.linkedin.com/in/alexpazhyn"
-    }, {
-        "name": "Facebook",
-        "link": "https://www.facebook.com/alex.pazhyn"
-    }]
-}, {
-    "id": 13,
-    "name": "Maciej Górski",
-    "title": "Lazy Developer",
-    "company": "EL Passion",
-    "country": "Poland",
-    "photoUrl": "../../images/people/maciej_gorski.jpg",
-    "bio": "Maciej is a passionate Android developer. He cares about writing clean code and less of it. He is spending time to automate things to save even more time. He also bikes a lot and would love to be able to code while doing it… using only mind controlled wearables or bikeables.",
-    "tags": ["Android", "CI"],
-    "socials": [{
-        "name": "Google+",
-        "link": "https://plus.google.com/+MaciejGórski6"
-    }, {
-        "name": "LinkedIn",
-        "link": "https://www.linkedin.com/in/mg6maciej"
-    }, {
-        "name": "Twitter",
-        "link": "https://twitter.com/mg6maciej"
-    }, {
-        "name": "GitHub",
-        "link": "https://github.com/mg6maciej"
-    }]
-}, {
-    "id": 14,
     "name": "Jana Moudrá",
     "title": "Co-Founder",
     "company": "Juicymo",
     "country": "Czech Republic",
     "photoUrl": "../../images/people/jana_moudra.jpg",
     "bio": "GDE (Google Developer Expert) for Dart. Jana is a passionate developer and modern web and mobile technology evangelist. She is an event organiser for GDG Prague, where she arranges events for developers including public lectures, code labs and hackathons – covering a wide range of subjects including technologies Dart or Android. She loves to help other developers and spread the knowledge about these technologies. <br/><br/>Jana co-founded a company called Juicymo, where she works on juicy apps and products.",
-    "tags": ["Web", "Dart"],
+    "tags": ["Chrome"],
     "badges": [{
         "name": "GDE",
         "description": "Dart Google Developer Expert",
@@ -323,77 +110,107 @@
         "link": "http://www.moudra.net/"
     }]
 }, {
-    "id": 15,
-    "name": "Jakub Škvára",
-    "title": "Frontend engineer",
-    "company": "Shipito",
-    "country": "Czech Republic",
-    "photoUrl": "../../images/people/jakub_skvara.jpg",
-    "bio": "Jakub is a member of GDG Prague and GDG ČVUT in Czech republic. He organised together with Jana Moudrá several Polymer and Dart code labs and a hackaton. He works as a frontend engineer for Shipito. Jakub is interested in modern Javascript frameworks, libraries and tools and loves clean code.",
-    "tags": ["Web", "Polymer"],
-    "badges": [{
-        "name": "GDG",
-        "description": "Google Developers Group Prague",
-        "link": "https://developers.google.com/groups/chapter/111919016509847766513/"
-    }],
+    "id": 6,
+    "name": "Doris Chen",
+    "title": "Senior Technology Evangelist",
+    "company": "Microsoft",
+    "country": "USA",
+    "photoUrl": "../../images/people/doris_chen.jpg",
+    "bio": "Dr. Doris Chen is a Senior Technology Evangelist at Microsoft for the Western region of the United States, specialized in web technologies (HTML5, jQuery, JavaScript, Ajax, and Java). Doris has over 18 years of experience in the software industry working in several open source web tier technologies, Java platform, .NET and distributed computing technologies. She has developed and delivered over 400 keynotes, technical sessions, and trainings worldwide. She speaks at numerous international conferences and user groups including O’Reilly OSCON, Fluent, Dev Nexus, HTML5 Dev Conference, WebVisions,  JavaOne, SD Forum, and worldwide User Groups. Doris works very closely to create and foster the open source community around Java, NetBeans, Glassfish, and related technologies. Before joining Microsoft, Doris Chen was a Technology Evangelist at Sun Microsystems. Doris received her Ph.D. from the University of California at Los Angeles (UCLA) in computer engineering, specializing in medical informatics.",
+    "tags": ["Chrome"],
     "socials": [{
         "name": "Google+",
-        "link": "https://plus.google.com/u/0/+JakubSkvara"
+        "link": "https://plus.google.com/+DorisChenTung"
     }, {
         "name": "Twitter",
-        "link": "https://twitter.com/skvaros"
+        "link": "https://twitter.com/doristchen"
+    }, {
+        "name": "Blog",
+        "link": "http://blogs.msdn.com/b/dorischen/"
     }]
 }, {
-    "id": 16,
-    "name": "Kseniia Shumelchyk",
-    "title": "Software Уngineer",
-    "company": "SoftServe Inc.",
-    "country": "Ukraine",
-    "photoUrl": "../../images/people/kseniia_shumelchyk.jpg",
-    "bio": "Kseniia is working as software developer at SoftServe as well she has an experience of working on open-source project during Google Summer of Code. Kseniia is leading Women Techmakers Ukraine and GDG Dnipropetrovsk communities for 3 years. She participated in number of international conferences: GOTO Aarhus, Google I/O and GDG Leaders Summit and was a speaker at Droidcon Berlin, Women Techmakers Istanbul, GDG DevFest Ukraine and Women Techmakers Global TechTalk. This year Kseniia was selected as Anita Borg Scholar Receipient that aimed to support women with outstanding results in Computer Science. Kseniia is a big fan of innovative technologies in education and software development. She is creator of Android application for Women Techmakers Community.",
-    "tags": ["Android", "BLE"],
+    "id": 7,
+    "name": "Jenny Tong",
+    "title": "Developer Advocate",
+    "company": "Google",
+    "country": "USA",
+    "photoUrl": "../../images/people/jenny_tong.jpg",
+    "bio": "Jenny is a Developer Advocate on Cloud at Google. In this role she helps developers build cool stuff on all sorts of platforms. Previously she worked in a wide variety of software roles from robotics at NASA, to developer advocacy for Google Glass. She is passionate about education, especially on the subjects of technology and science. If she's away from her laptop, she's probably skating around a roller derby track, or hanging from aerial silk.",
+    "tags": ["Android", "Firebase"],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/+mimming"
+    }]
+}, {
+    "id": 8,
+    "name": "John Feig",
+    "title": "Software Engineer",
+    "company": "TiKL, Inc",
+    "country": "USA",
+    "photoUrl": "../../images/people/john_feig.jpg",
+    "bio": "Google Developer Expert for Wearables (Google Glass and Android Wear) and Software Engineer at TiKL, Inc. I get to do lots of fun stuff at TiKL, like writing clients for new platforms from scratch, and touching the full stack. I have worked on the Android client, the Java servers, a web client, a bit of PhotoShop, as well as keeping up with TiKL's social media presence. My goal as a GDE is to help people write solid code, and help them to really wrap their heads around the platform.",
+    "tags": ["Google Cloud Platform"],
     "badges": [{
-        "name": "GDG",
-        "description": "Google Developers Group Dnipropetrovsk",
-        "link": "https://developers.google.com/groups/chapter/116033068768596939209/"
-    }, {
-        "name": "WTM",
-        "description": "Women Techmakers Ukraine",
-        "link": "http://www.wtm-ukraine.com/"
+        "name": "GDE",
+        "description": "Android Wear / Glass Google Developer Expert",
+        "link": "https://developers.google.com/experts/people/e-john-feig"
     }],
     "socials": [{
         "name": "Google+",
-        "link": "https://plus.google.com/u/0/104006672956574838559"
+        "link": "https://plus.google.com/u/0/+EJohnFeig"
+    }, {
+        "name": "Website",
+        "link": "http://www.recursiverobot.com/"
     }, {
         "name": "LinkedIn",
-        "link": "http://ua.linkedin.com/pub/kseniia-shumelchyk/49/26/935"
-    }]
-}, {
-    "id": 17,
-    "name": "Anna Kurylo",
-    "title": "Project manager",
-    "company": "Hackraft",
-    "country": "Ukraine",
-    "photoUrl": "../../images/people/anna_kurylo.png",
-    "bio": "Anna drives several IT communities in Kyiv. She has organized more than 30 events during last the 2 years including the biggest hackathon in Ukraine and several conferences for developers and startups. This year Anna became a Google Anita Borg Scholar in EMEA Region, being selected from more than a thousand candidates.",
-    "tags": ["Community"],
-    "badges": [{
-        "name": "WTM",
-        "description": "Women Techmakers Kyiv",
-        "link": "http://www.wtm-ukraine.com/"
-    }],
-    "socials": [{
-        "name": "Google+",
-        "link": "https://plus.google.com/+AnnaKurilo/"
-    }, {
-        "name": "LinkedIn",
-        "link": "https://ua.linkedin.com/in/bluebirrrrd"
+        "link": "https://www.linkedin.com/in/ejohnfeig"
     }, {
         "name": "Twitter",
-        "link": "https://twitter.com/bluebirrrrd"
+        "link": "https://twitter.com/emil10001"
+    }]
+}, {
+    "id": 9,
+    "name": "Martin Omander",
+    "title": "Program Manager for Google Developer Relations",
+    "company": "Google",
+    "country": "USA",
+    "photoUrl": "../../images/people/martin_omander.jpg",
+    "bio": "Add Bio",
+    "tags": ["ADD TAG"],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/u/0/+MartinOmander"
+    }]
+}, {
+    "id": 10,
+    "name": "Justin Ribeiro",
+    "title": "Software Engineer",
+    "company": "Stickman Ventures Inc",
+    "country": "USA",
+    "photoUrl": "../../images/people/justin_ribeiro.jpg",
+    "bio": "For the last 18 years, Justin has worked on enterprise and consumer-based software products – and is no stranger to building and deploying large-scale architecture for users in the field. As an early Google Glass Explorer, he has also worked extensively on integrating existing services with the platform – from real-time warehouse tracking to in-the-field sensor tracking for use in water management within agricultural operations. When Justin isn't building for Glass and Wear, he can be found building for Android and the web. Justin has successfully helped many startups bring concepts and ideas to market, and developed new internal systems to help even established companies become more efficient. Right now, Justin works at Stickman Ventures, managing software development teams on the US West Coast and overseas. He is also a co-organiser at GDG Oakdale, where he teaches and speaks on a wide range of Google technologies. He also spends time wiring and coding the Oakdale OpenMesh – a community-driven open wifi network. He lives in Oakdale with his wife, three daughters, and darkroom stockpile of HC-110.",
+    "tags": ["Beacons / Physical Web"],
+    "badges": [{
+        "name": "GDE",
+        "description": "Android Wear / GlassGoogle Developer Expert",
+        "link": "https://developers.google.com/experts/people/justin-ribeiro"
     }, {
-        "name": "Facebook",
-        "link": "https://www.facebook.com/annakurylo21"
+        "name": "GDG",
+        "description": "Google Developers Group Oakdale",
+        "link": "https://developers.google.com/groups/chapter/117677091518865462359/"
+    }],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/+JustinRibeiro"
+    }, {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/justinribeiro"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/justinribeiro"
+    }, {
+        "name": "Web",
+        "link": "https://www.justinribeiro.com/"
     }]
 }
 ]
