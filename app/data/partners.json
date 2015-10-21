@@ -10,39 +10,5 @@
             "url": "http://www.meetup.com/gdg-silicon-valley",
             "logoUrl": "../images/partners/gdg-sv.jpeg"
         }]
-    }, {
-        "title": "With support of",
-        "logos": [{
-            "name": "Google",
-            "url": "https://www.google.com.ua/intl/en/about/",
-            "logoUrl": "../images/partners/google.svg"
-        }, {
-            "name": "Google Developer Group Silicon Valley",
-            "url": "http://www.meetup.com/gdg-silicon-valley",
-            "logoUrl": "../images/partners/gdg-sv.jpeg"
-        }, {
-            "name": "GDG[X]",
-            "url": "https://github.com/gdg-x",
-            "logoUrl": "../images/partners/gdg-x.svg"
-        }]
-    }, {
-        "title": "Information partners",
-        "logos": [{
-            "name": "Google",
-            "url": "https://www.google.com.ua/intl/en/about/",
-            "logoUrl": "../images/partners/google.svg"
-        }, {
-            "name": "Google",
-            "url": "https://developers.google.com/",
-            "logoUrl": "../images/partners/developers_logo.png"
-        }, {
-            "name": "Google Developer Group Silicon Valley",
-            "url": "http://www.meetup.com/gdg-silicon-valley",
-            "logoUrl": "../images/partners/gdg-sv.jpeg"
-        }, {
-            "name": "GDG[X]",
-            "url": "https://github.com/gdg-x",
-            "logoUrl": "../images/partners/gdg-x.svg"
-        }]
     }
 ]
