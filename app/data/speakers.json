@@ -175,8 +175,8 @@
     "company": "Google",
     "country": "USA",
     "photoUrl": "../../images/people/martin_omander.jpg",
-    "bio": "Add Bio",
-    "tags": ["ADD TAG"],
+    "bio": "",
+    "tags": ["Community"],
     "socials": [{
         "name": "Google+",
         "link": "https://plus.google.com/u/0/+MartinOmander"
