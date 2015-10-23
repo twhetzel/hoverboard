@@ -59,6 +59,12 @@
             app.scrollToTop();
         });
 
+        page('/team', function() {
+            trackPageview('/team');
+            app.route = 'team';
+            app.scrollToTop();
+        });
+
         page('/code-of-conduct', function() {
             trackPageview('/code-of-conduct');
             app.route = 'code-of-conduct';
