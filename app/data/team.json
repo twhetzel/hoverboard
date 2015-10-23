@@ -1,0 +1,72 @@
+[{
+  "id": 1,
+  "name": "Rita Sachdev",
+  "title": "GDG Organizer",
+  "photoUrl": "../../images/team/RitaSachdev.jpg",
+  "team": true,
+  "badges": [{ 
+    "abbr": "GDG", 
+    "title": "Google Developer Group"
+    }],
+  "socials": [{ 
+    "name": "Google+", 
+    "link": "https://plus.google.com/+RitaSachdev"
+    }]
+}, { 
+  "id": 2,
+  "name": "Peter Mooshammer",
+  "title": "GDG Organizer",
+  "photoUrl": "../../images/team/PeterMooshammer.jpg",
+  "team": "true",
+  "badges": [{
+    "abbr": "GDG", 
+    "title": "Google Developer Group"
+    }],
+  "socials": [{ 
+    "name": "Google+", 
+    "link": "https://google.com/+PeterMooshammer"
+  }]
+}, { 
+  "id": 3,
+  "name": "Tom Wilson",
+  "title": "GDG Organizer",
+  "photoUrl": "../../images/team/TomWilson.jpg",
+  "team": true,
+  "badges": [{ 
+    "abbr": "GDG",
+    "title": "Google Developer Group"
+    }],
+  "socials": [{
+    "name": "Google+", 
+    "link": "https://plus.google.com/+TomWilson1"
+    }, { 
+    "name": "Twitter", 
+    "link": "https://twitter.com/twilson650"
+    }, {
+    "name": "GitHub", 
+    "link": "https://github.com/twilson650"
+    }, {
+    "name": "Website", 
+    "link": "http://nerdpod.blogspot.com/"
+    }]
+}, {
+  "id": 4,
+  "name": "Trish Whetzel",
+  "title": "GDG Volunteer",
+  "photoUrl": "../../images/team/TrishWhetzel.png",
+  "team": true,
+  "socials": [{
+    "name": "Google+",
+    "link": "https://plus.google.com/u/0/+TrishWhetzel"
+    }, {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/trishwhetzel"
+    }, {
+      "name": "Twitter",
+      "link": "https://twitter.com/TrishWhetzel"
+    }, {
+      "name": "GitHub",
+      "link": "https://github.com/twhetzel"
+    }]
+  }
+]
