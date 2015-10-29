@@ -25,7 +25,13 @@
   "socials": [{ 
     "name": "Google+", 
     "link": "https://google.com/+PeterMooshammer"
-  }]
+  }, {
+    "name": "Twitter",
+    "link": "https://twitter.com/pmoosh"
+  }, {
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/profile/view?id=AAMAAACn28QBtDTfVVRKVt3Sak2ii2yC3qQx9hc&trk=hp-identity-name"
+    }]
 }, { 
   "id": 3,
   "name": "Tom Wilson",
