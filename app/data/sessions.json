@@ -11,8 +11,8 @@
   },
   {
     "id": 102,
-    "title": "Getting Started with Docker",
-    "description": "This presentation will demonstrate how to start using Docker a development workflow, and then to push your dev environment to the cloud.",
+    "title": "Android Intents - Building a Public API on the Phone",
+    "description": "With Android, you have the ability to expose functionality of your app to other apps. Sharing content like images, or text is common, but you can do a lot more. This presentation will walk through a couple of examples, and discuss how this might be used to build something interesting.",
     "speakers": [8],
     "language": "en",
     "complexity": "Beginner",
@@ -42,7 +42,7 @@
   {
     "id": 105,
     "title": "Let's play Dart!",
-    "description": "In this session you will explore how to write your first Dart application. Come to this workshop to try and learn Dart, have fun and see how you can write awesome applications and be productive with it. Note: please don't forget to bring your laptop with downloaded Dart and some editor/IDE with Dart support. More info: https://www.dartlang.org/downloads/.",
+    "description": "In this session you will explore how to write your first server-side Dart application. Come to this workshop to try and learn Dart, have fun and see how you can write awesome applications and be productive with it. Note: please don't forget to bring your laptop with downloaded Dart and some editor/IDE with Dart support. More info: https://www.dartlang.org/downloads/.",
     "speakers": [5],
     "language": "en",
     "complexity": "Intermediate",
