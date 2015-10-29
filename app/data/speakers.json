@@ -149,7 +149,7 @@
     "country": "USA",
     "photoUrl": "../../images/people/john_feig.jpg",
     "bio": "Google Developer Expert for Wearables (Google Glass and Android Wear) and Software Engineer at TiKL, Inc. I get to do lots of fun stuff at TiKL, like writing clients for new platforms from scratch, and touching the full stack. I have worked on the Android client, the Java servers, a web client, a bit of PhotoShop, as well as keeping up with TiKL's social media presence. My goal as a GDE is to help people write solid code, and help them to really wrap their heads around the platform.",
-    "tags": ["Google Cloud Platform"],
+    "tags": ["Android"],
     "badges": [{
         "name": "GDE",
         "description": "Android Wear / Glass Google Developer Expert",
@@ -160,7 +160,7 @@
         "link": "https://plus.google.com/u/0/+EJohnFeig"
     }, {
         "name": "Website",
-        "link": "http://www.recursiverobot.com/"
+        "link": "http://ejf.io"
     }, {
         "name": "LinkedIn",
         "link": "https://www.linkedin.com/in/ejohnfeig"
