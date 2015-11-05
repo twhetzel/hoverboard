@@ -212,5 +212,63 @@
         "name": "Web",
         "link": "https://www.justinribeiro.com/"
     }]
+}, {
+    "id": 11,
+    "name": "Etienne Caron",
+    "title": "Senior Mobile Developer / Android Lead",
+    "company": "Intel Security",
+    "country": "USA",
+    "photoUrl": "../../images/people/etienne_caron.jpg",
+    "bio": "Etienne has been an active member of the Android developer community in Montreal since 2010, and regularly devotes his time towards mentoring startups, developers and students in the mobile space. As part of the Montreal Android GDG, he organises meetups, hackathons, and gives regular talks on Android-related subjects. He's now part of the Google Developer Expert program.",
+    "tags": ["Google Cardboard", "Android"],
+    "badges": [{
+        "name": "GDE",
+        "description": "Android Developer Expert",
+        "link": "https://developers.google.com/experts/people/justin-ribeiro"
+    }],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/+EtienneCaron"
+    }, {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/pub/etienne-caron/14/a65/5"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/kanawish"
+    }, {
+        "name": "Web",
+        "link": "http://gde.ninja/"
+    }]
+}, {
+    "id": 12,
+    "name": "JeanCarl Bisson",
+    "title": "Technical Evangelist",
+    "company": "IBM",
+    "country": "USA",
+    "photoUrl": "../../images/people/jeancarl_bisson.jpg",
+    "bio": "JeanCarl Bisson is a Technical Evangelist for IBM Bluemix. He has participated in over 100 hackathon over the last six years, winning prizes and cash. He has taken several hacks to market. He loves to quickly build prototypes and see how they work out.",
+    "tags": ["Chrome", "JavaScript"],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/+JeanCarlBisson"
+    }]
+}, {
+    "id": 13,
+    "name": "Gerard Sans",
+    "title": "Software Developer",
+    "company": "Independent",
+    "country": "UK",
+    "photoUrl": "../../images/people/gerard_sans.jpg",
+    "bio": "Gerard is a multi-talented Computer Science Engineer specialised in Web. He is now an AngularJS fanboy and a community activist fighting for the JavaScript revolution. He has lived and worked for all sorts of companies in Germany, Brazil, UK and Spain. He is always up for a good challenge. He enjoys running AngularJS Labs London, mentoring AngularJS students, participating in the community, giving talks and writing technical articles at Medium.",
+    "tags": ["Chrome", "JavaScript"],
+    "badges": [{
+        "name": "GDE",
+        "description": "Web Technologies Developer Expert",
+        "link": "https://developers.google.com/experts/people/gerard-sans?hl=es-419"
+    }],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/u/0/+GerardSans"
+    }]
 }
 ]
