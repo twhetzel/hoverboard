@@ -95,5 +95,32 @@
     "complexity": "Beginner",
     "presentation": "",
     "video": ""
+  }, {
+    "id": 111, 
+    "title": "Let's Play! - Intro to Google Cardboard",
+    "description": "When I started making a Cardboard App, I had a lot to learn. I didn't know much about OpenGL, things kept breaking when I changed little details... it was painful. Not being a very sensible person, I kept going, and I'd like to share with you some of the things I found out.",
+    "speakers": [11],
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "video": ""
+  }, {
+    "id": 112, 
+    "title": "Hacking your idea together in 24 hours",
+    "description": "Ever wanted to develop an idea for an application or website? Learn techniques of how to quickly prototype your idea into a working application at a 24 hour hackathon.",
+    "speakers": [12],
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "video": ""
+  }, {
+    "id": 113, 
+    "title": "Angular — Introduction to Reactive Extensions (RxJS)",
+    "description": "Reactive Extensions for JavaScript (RxJS) is a reactive streams library that allows you to work with multiple asynchronous data streams (aka Observable sequences). Angular 2 http new module favours Rx over Promises. We are going to explore what is RxJS all about and how we can use it in Angular.",
+    "speakers": [13],
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "video": ""
   }
 ]
