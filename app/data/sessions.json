@@ -38,7 +38,7 @@
     "complexity": "Intermediate",
     "presentation": "",
     "video": ""
-  },
+  }, 
   {
     "id": 105,
     "title": "Let's play Dart!",
@@ -118,6 +118,96 @@
     "title": "Angular — Introduction to Reactive Extensions (RxJS)",
     "description": "Reactive Extensions for JavaScript (RxJS) is a reactive streams library that allows you to work with multiple asynchronous data streams (aka Observable sequences). Angular 2 http new module favours Rx over Promises. We are going to explore what is RxJS all about and how we can use it in Angular.",
     "speakers": [13],
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "video": ""
+  }, {
+    "id": 114, 
+    "title": "Google Fit and Android Wear the perfect match for fitness apps",
+    "description": "",
+    "speakers": [14],
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "video": ""
+  }, {
+    "id": 115, 
+    "title": "JDXA, The KISS ORM for Android",
+    "description": "JDXA is a simple, non-intrusive, and flexible Object Relational Mapping (ORM) product that dramatically decreases development time by presenting a more intuitive object-oriented view of on-device SQLite relational data, eliminating the need to write and maintain endless lines of complex low-level SQL code. This presentation will provide an overview of JDXA with code snippets.",
+    "speakers": [15],
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "video": ""
+  }, {
+    "id": 116, 
+    "title": "Android and the Seven Dwarfs",
+    "description": "This talk will focus on seven great opensource libraries which do fix Android's programming model, the way jquery fixes javascript. The libraries below will be covered with example code, advantages, disadvantages, internals and when to use them.",
+    "speakers": [16],
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "video": ""
+  }, {
+    "id": 117, 
+    "title": "Wearing Jacquard Android",
+    "description": "A review of the current Google Project Jacquard and Project Soli with respect to Android Wear. This presentation will show how these projects will revolutionize wearables.",
+    "speakers": [17],
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "video": ""
+  }, {
+    "id": 118, 
+    "title": "Kaleidoscope with Dataflow",
+    "description": "Possibilities of discerning data patterns with data flow cloud scale data parallelism.",
+    "speakers": [18],
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "video": ""
+  }, {
+    "id": 119, 
+    "title": "Speed with Ease, NoSQL on GCP",
+    "description": "Lessons learned from running benchmark tests with the Aerospike team using Google Cloud Platform (GCP) virtual machines.",
+    "speakers": [19],
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "video": ""
+  }, {
+    "id": 120, 
+    "title": "Go Programming",
+    "description": "An Introduction to the Go Programming Language",
+    "speakers": [20],
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "video": ""
+  }, {
+    "id": 121, 
+    "title": "Rapid Deployment & Strategies for launching a browser extension in a startup",
+    "description": "SalesforceIQ's Chrome extension provides contextual information and productivity features inside Gmail, in order to seamlessly provide CRM access and enhance users' email workflow. Since the launch, we have delivered 10+ features in the Chrome extension in one year to become one of the highest engagement product. In this talk, we will cover the basics of a Chrome extension, deep-diving on the \"read receipts\" feature, and how we architected RelateIQ Chrome extension to enable rapid deployment and code-sharing. All these lessons can be transferred to startups launching a browser extension client.",
+    "speakers": [21],
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "video": ""
+  }, {
+    "id": 122, 
+    "title": "Multi-Language Multi-services in Google Cloud",
+    "description": "One of greatest benefit with multi-service architecture is being able to develop different platforms/languages. In this presentation I will show how to unite different languages - NodeJS, GoLang and Dart - in single application hosted in Google Cloud Platform.",
+    "speakers": [22],
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "video": ""
+  }, {
+    "id": 123, 
+    "title": "Develop and Design for Android Marshmallow",
+    "description": "The latest version of Android contains many significant changes from previous versions. Attend the Fireside Chats to hear a panel of Google Developer Experts discuss the most important changes, and the steps you should take to incorporate them into your Android apps.<br>This special event will include a lively discussion on Marshmallow's latest features and how to best take advantage of them. Also come ready with questions and suggestions of your own!<br>We have gathered a great collection of Google Developer Experts to answer your questions, including Said Tahsin Dane, Chiu-Ki Chan, Ryan Harter, Wiebe Elsinga, and Mike Wolfson.<br>If you would like to ask a question ahead of time, please use this G+ link: https://plus.google.com/+MichaelWolfson/posts/hdLh3npNUEg",
+    "speakers": [23],
     "language": "",
     "complexity": "",
     "presentation": "",
