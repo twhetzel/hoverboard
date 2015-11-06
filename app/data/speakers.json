@@ -270,5 +270,193 @@
         "name": "Google+",
         "link": "https://plus.google.com/u/0/+GerardSans"
     }]
+}, {
+    "id": 14,
+    "name": "Matias Molinas",
+    "title": "Software Developer",
+    "company": "JustMotion LLC",
+    "country": "ARG",
+    "photoUrl": "../../images/people/matias_molinas.jpg",
+    "bio": "Matias is an experienced software architect, designer, and developer. He has worked on multiple projects, including consumer, enterprise, and medical software products and applications.<br>He's currently working as a Java Architect on an eCommerce platform for Project ARA. The project will enable users to create a modular smartphone that's precisely tailored to their functional and aesthetic preferences. Since 2011, Matias has been a Google Developer Expert for YouTube APIs.<br>As an independent entrepreneur, Matias is also currently involved in a new platform for mobile application and wearable technology – and has previously run a startup venture related to smart video and social content recommendation engine, and in an ads optimisation tool. He was a consultant for the University of Nebraska too – for a project in computer aided surgery, addressing design, 3D-tracking, and 3D-visualization aspects.<br>At college, Matias studied Biomedical Engineering at the UNER in Argentina – where he lives with his wife and two children. When time allows, he enjoys playing water polo.",
+    "tags": ["Android Wear", "Android", "Google Fit"],
+    "badges": [{
+        "name": "GDE",
+        "description": "Android Developer Expert",
+        "link": "https://developers.google.com/experts/people/matias-molinas"
+    }],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/u/0/+MatiasMolinas"
+    }]
+}, {
+    "id": 15,
+    "name": "Damodar Periwal",
+    "title": "Software Engineer, Founder",
+    "company": "Software Tree",
+    "country": "USA",
+    "photoUrl": "../../images/people/damodar_periwal.jpg",
+    "bio": "Damodar Periwal has an extensive background in databases, transaction processing, as well as distributed and object-oriented technologies. Damodar has more than 25 years of industry experience, having worked at leading companies like Google, TIBCO, Borland, Ashton-Tate, and Tandem Computers. Damodar has an MS (Computer Science) degree from University of Wisconsin (Madison) and an undergraduate engineering degree from Birla Institute of Technology and Science, Pilani (India).",
+    "tags": ["Android", "Android Object Relational Mapping"],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/u/0/107558643286241506852"
+    }]
+}, {
+    "id": 16,
+    "name": "Murat Yener",
+    "title": "Android Developer",
+    "company": "Intel",
+    "country": "TUR",
+    "photoUrl": "../../images/people/murat_yener.png",
+    "bio": "Murat Yener is a code geek, open source committer and working in Intel as an Android Developer. He has extensive experience on developing Java, Web, JavaEE and OSGi applications besides teaching courses and mentoring. Murat is an Eclipse committer and one of the initial committers of Eclipse Libra project. He is currently working on building native and Hybrid mobile apps with mGWT. <br>He is the author of upcoming Professional Java EE Design Patterns book from Wiley. He has been a user group leader at GDG Istanbul since 2009. Murat is a regular speaker at conferences like JavaOne, EclipseCon and user group meetings.",
+    "tags": ["Android"],
+    "badges": [{
+        "name": "GDE",
+        "description": "Android Developer Expert",
+        "link": "https://developers.google.com/experts/people/matias-molinas"
+    }, {
+        "name": "GDG",
+        "description": "Google Developers Group Istanbul",
+        "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
+    }],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/+MuratYener"
+    }, {
+        "name": "LinkedIn",
+        "link": "www.linkedin.com/in/muratyener"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/yenerm"
+    }, {
+        "name": "Blog",
+        "link": "www.devchronicles.com"
+    }]
+}, {
+    "id": 17,
+    "name": "Siamak Ashrafi",
+    "title": "Researcher/Developer",
+    "company": "Biotech Startup",
+    "country": "USA",
+    "photoUrl": "../../images/people/siamak_ashrafi.jpg",
+    "bio": "Ash is a researcher TDI working on medical biomarkers (scientific publications) & CTO Zoewear building physiologically intelligent clothing (technology patents).  His frequent code-a-thon wins have gone on to become published Apps (iOS & Android).  As a thought leader in wearable/mobile development he is an enthusiastic teacher/speaker helping to promote the ecosystem (fashion & technology).  You can usually catch him DJ or competing in one of the phases of water. (Snowboarding [solid], Surfing [liquid] & Kiteboarding [vapor].",
+    "tags": ["Android Wear"],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/u/0/+SiamakAshrafi"
+    }]
+}, {
+    "id": 18,
+    "name": "Latha Krishnaswamy",
+    "title": "Researcher/Developer",
+    "company": "",
+    "country": "",
+    "photoUrl": "",
+    "bio": "Software development expertise, entrepreneur enthusiast in new software development.",
+    "tags": ["Google Cloud Platform"]
+}, {
+    "id": 19,
+    "name": "Lynn Langit",
+    "title": "Independent Cloud and Big Data Architect",
+    "company": "Lynn Langit Consulting",
+    "country": "USA",
+    "photoUrl": "../../images/people/lynn_langit.jpg",
+    "bio": "Big Data and Cloud Architect - AWS Community Hero, Google Cloud Developer Expert, Microsoft MVP. Author of Lynda.com, Pluralsight, Wintellect and DevelopMentor courseware. YouTube BigData playlist. Over 250k people have watched my 'Hadoop Fundamentals' courses online.",
+    "tags": ["Google Cloud Platform"],
+    "badges": [{
+        "name": "GDE",
+        "description": "Google Cloud Developer Expert",
+        "link": "https://developers.google.com/experts/people/lynn-langit"
+    }],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/u/0/+LynnLangit"
+    }, {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/lynnlangit"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/lynnlangit"
+    }, {
+        "name": "Web",
+        "link": "http://lynnlangit.com/"
+    }]
+}, {
+    "id": 20,
+    "name": "Todd McLeod",
+    "title": "Faculty",
+    "company": "Fresno City College",
+    "country": "USA",
+    "photoUrl": "../../images/people/todd_mcleod.jpg",
+    "bio": "Todd McLeod is Faculty in Computer Science at California State University, Fresno. He is also faculty at Fresno City College.",
+    "tags": ["Go"],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/u/0/102058450286415797711"
+    }]
+}, {
+    "id": 21,
+    "name": "Keven Wang",
+    "title": "Senior Technical Staff",
+    "company": "SalesforceIQ",
+    "country": "USA",
+    "photoUrl": "",
+    "bio": "Keven Wang is a Senior Member of Technical Staff at SalesforceIQ, where he leads the Chrome extension project, building it from zero into the fastest-growing client at RelateIQ. On this journey, Keven architected Chrome extension to enable rapid deployment and code-sharing with RelateIQ's web-app client using AngularJS. Keven has delivered 10+ features in Chrome extension in 12 months, leveraging backend infrastructure on email / calendar sync (IMAP, Google Calendar API) and push notifications (Google Cloud Messaging). Keven joined RelateIQ in 2013, prior to its acquisition by Salesforce in 2014.",
+    "tags": ["Chrome", "JavaScript"],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/u/0/109191163123171982574"
+    }]
+}, {
+    "id": 22,
+    "name": "Valentyn Shybanov",
+    "title": "Software Engineer",
+    "company": "Twinfield",
+    "country": "UKR",
+    "photoUrl": "../../images/people/valentyn_shybanov.jpg",
+    "bio": "Started software engineering career with low level system programming mostly on start of the era of modern computers, my interest involved from programming calculators and simple games to developing complex enterprise-level cloud-based solutions. Now, with help of modern technologies, solutions and concepts, I am not just trying to bring any, even most courageous ideas into life, but also spread the light of all brilliant technology solutions I can find to all other developers. Now focused on combination of Web technologies (AngularJS, Dart) and cloud platforms (Google Cloud Platform, Amazon EC2, Azure etc).<br> Currently I am Google Developer Expert (Cloud and Web) and Software Architect of Twinfield International N.V. and building online accounting system and responsible for making architectural decisions for bringing Twinfield application into cloud. Also part of Wolter’s Kluwer’s European PaaS initiative (building enterprise-level PaaS solution to unify development environment for different WK companies).",
+    "tags": ["App Engine", "Chrome", "JavaScript", "Dart", "GoLang"],
+    "badges": [{
+        "name": "GDE",
+        "description": "Google Cloud Platform Developer Expert",
+        "link": "https://developers.google.com/experts/people/valentyn-shybanov"
+    }],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/+ValentynShybanov"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/olostan"
+    }, {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/olostan"
+    }]
+}, {
+    "id": 23,
+    "name": "Mike Wolfson",
+    "title": "Independent Android Developer",
+    "company": "ClearToken",
+    "country": "USA",
+    "photoUrl": "../../images/people/mike_wolfson.png",
+    "bio": "Mike is a senior-level Android\\Java developer with a proven history of success and a long list of accomplishments. He's also a great developer, an excellent communicator and leader, and has a comprehensive knowledge of the full life-cycle of mobile-focused development and design. Mike's a passionate coder too, with an eye for simplicity – and a love for writing beautiful, pragmatic, code.",
+    "tags": ["Android"],
+    "badges": [{
+        "name": "GDE",
+        "description": "Android Developer Expert",
+        "link": "https://developers.google.com/experts/people/mike-wolfson"
+    }],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/+MichaelWolfson"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/mikewolfson"
+    }, {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/profile/view?id=5033923"
+    }, {
+        "name": "web",
+        "link": "http://www.mikewolfson.com/"
+        }]
 }
 ]
