@@ -458,5 +458,14 @@
         "name": "web",
         "link": "http://www.mikewolfson.com/"
         }]
-}
+}, {
+    "id": 24,
+    "name": "Forbes Hedges",
+    "title": "",
+    "company": "Cloudata Inc",
+    "country": "USA",
+    "photoUrl": "",
+    "bio": "Cloudata Czar and CloudBnB Marketplace Builder and Operator (www.hwswworld.com), has accumulated over 20 years of experience in automation, which is part of his passion instead of career. He started his career in the EDA industry working for two public companies on chip design automation before he started his own startup journey as a self-taught businessman by bootstrapping a few startups including Cloudata Inc.",
+    "tags": ["Hyperscale Hyperconvergence"]
+    }
 ]
