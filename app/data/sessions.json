@@ -1,11 +1,21 @@
 [
   {
+    "id": 1001,
+    "title": "Registration & Coffee",
+    "description": "Get your badge, coffee, enjoy networking"
+  },
+  {
+    "id": 1002,
+    "title": "Lunch",
+    "description": "Get some yummy food and enjoy moar networking"
+  },
+  {
     "id": 101,
     "title": "Beacons, Hinting, and You: Context and Discovery",
     "description": "Letting your application know what's around you is hard. aGPS can be deceiving and work poorly indoors and the context of user is even more difficult to determine. With BLE beacons such as Eddystone, we can make our applications smarter. In this talk, I explore what exactly beacons are, how we can use them to hint and progressively enhance our users experience.",
     "speakers": [10],
-    "language": "en",
-    "complexity": "Beginner",
+    "language": "",
+    "complexity": "",
     "presentation": "",
     "video": ""
   },
@@ -14,8 +24,8 @@
     "title": "Android Intents - Building a Public API on the Phone",
     "description": "With Android, you have the ability to expose functionality of your app to other apps. Sharing content like images, or text is common, but you can do a lot more. This presentation will walk through a couple of examples, and discuss how this might be used to build something interesting.",
     "speakers": [8],
-    "language": "en",
-    "complexity": "Beginner",
+    "language": "",
+    "complexity": "",
     "presentation": "",
     "video": ""
   },
@@ -24,8 +34,8 @@
     "title": "Building an Android chat app with Firebase",
     "description": "Come learn how Firebase can power your Android app's backend. Firebase takes care of the stuff every app needs including data storage, user authentication, and hosting. This lets you focus on creating extraordinary user experiences instead of building a back end. </br></br>In this code lab a team of Google Developer Advocates will guide you through the process of building a chat application using Firebase and Android Studio. </br></br>This talk is an introduction to Firebase, but it assumes that you're already comfortable writing simple Android apps. Please come with Android Studio installed and your Android device ready to go.",
     "speakers": [7],
-    "language": "en",
-    "complexity": "Beginner",
+    "language": "",
+    "complexity": "",
     "presentation": "",
     "video": ""
   },
@@ -34,8 +44,8 @@
     "title": "Building Web Sites that Work Everywhere",
     "description": "How to build web sites that work well across various browsers versions and devices is always challenging for web developers. In the session, you’ll learn the best practices and strategy to develop cross-browser web sites that will work with the existing and future browsers. Tools for interoperability tests, cross-browser fundamentals, and tips and tricks on HTML5, CSS, JavaScript development will be illustrated.  Feature detection, CSS prefix, and fallbacks will all be examined in the session. A real life example will be used to demonstrate step by step how to build cross-browser and plug-in-Free experiences. With a couple of simple changes to your sites, you can take advantage of web standards and HTML5 features today without breaking your sites in the future. Expect a lot of demos and code in the session.",
     "speakers": [6],
-    "language": "en",
-    "complexity": "Intermediate",
+    "language": "",
+    "complexity": "",
     "presentation": "",
     "video": ""
   }, 
@@ -44,8 +54,8 @@
     "title": "Let's play Dart!",
     "description": "In this session you will explore how to write your first server-side Dart application. Come to this workshop to try and learn Dart, have fun and see how you can write awesome applications and be productive with it. Note: please don't forget to bring your laptop with downloaded Dart and some editor/IDE with Dart support. More info: https://www.dartlang.org/downloads/.",
     "speakers": [5],
-    "language": "en",
-    "complexity": "Intermediate",
+    "language": "",
+    "complexity": "",
     "presentation": "",
     "video": ""
   },
@@ -54,27 +64,27 @@
     "title": "Looking Under The Hood of Chrome DevTools",
     "description": "Chrome DevTools are arguably the most important position in every front-end developers toolset. They are used by 25 million users worldwide. But how do they work? Let's break them open and see!",
     "speakers": [4],
-    "language": "en",
-    "complexity": "Beginner",
+    "language": "",
+    "complexity": "",
     "presentation": "",
     "video": ""
   },
   {
-    "id": 109,
+    "id": 107,
     "title": "The power of Dataflow",
     "description": "Dealing with massive datasets can be a real chore. The biggest pain point is setting up, and maintaining the infrastructure. However, that's now changing with the emergence of cloud products like Dataflow. Pablo will jump into this brand new product from Google, and show how it let's you focus on your code, rather than worrying about the infrastructure needed to work with big data. He'll talk about how you can use it to clean, and analyze your data with ease, and how Dataflow will spin up & tear down VM clusters for your data pipelines on the fly!",
     "speakers": [3],
-    "language": "en",
-    "complexity": "Beginner",
+    "language": "",
+    "complexity": "",
     "presentation": "",
     "video": ""
   }, {
-    "id": 109,
+    "id": 108,
     "title": "Reeling in big data using Google BigQuery",
     "description": "Managing infrastructure, worrying about scalability, and waiting for queries to finish executing are some of the biggest challenges when working with massive volumes of data. One solution is to outsource the heavy lifting to someone else, thereby allowing you to spend more time on actually analyzing, and drawing insights out of your data. Google want to be that someone else! Part of their big data product lineup, BigQuery is a bleeding edge SaaS that is designed to make it easy for users to get up and running without the need to care about operational overheads. In this presentation, Graham will give an introduction to BigQuery, and show how it can be used to query terabytes and billions of rows in ridiculously fast times. He'll cover its core features, cost model, available APIs, and caveats. Finally, he'll show how they used BigQuery at a recent project for Australia's largest ISP, and give a quick demo of BigQuery in action.",
     "speakers": [2],
-    "language": "en",
-    "complexity": "Beginner",
+    "language": "",
+    "complexity": "",
     "presentation": "",
     "video": ""
   } , {
@@ -82,8 +92,8 @@
     "title": "Whisper Dungeon for Google Cardboard",
     "description": "Design and develop for Virtual Reality is different than just making apps for a mobile device. We get extra depth and more complexity in control. In this talk, we will demo some VR games and talk about the process of making them.",
     "speakers": [1],
-    "language": "en",
-    "complexity": "Beginner",
+    "language": "",
+    "complexity": "",
     "presentation": "",
     "video": ""
   }, {
@@ -91,8 +101,8 @@
     "title": "How Google can help your career in technology",
     "description": "",
     "speakers": [9],
-    "language": "en",
-    "complexity": "Beginner",
+    "language": "",
+    "complexity": "",
     "presentation": "",
     "video": ""
   }, {
@@ -208,6 +218,15 @@
     "title": "Develop and Design for Android Marshmallow",
     "description": "The latest version of Android contains many significant changes from previous versions. Attend the Fireside Chats to hear a panel of Google Developer Experts discuss the most important changes, and the steps you should take to incorporate them into your Android apps.<br>This special event will include a lively discussion on Marshmallow's latest features and how to best take advantage of them. Also come ready with questions and suggestions of your own!<br>We have gathered a great collection of Google Developer Experts to answer your questions, including Said Tahsin Dane, Chiu-Ki Chan, Ryan Harter, Wiebe Elsinga, and Mike Wolfson.<br>If you would like to ask a question ahead of time, please use this G+ link: https://plus.google.com/+MichaelWolfson/posts/hdLh3npNUEg",
     "speakers": [23],
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "video": ""
+  }, {
+    "id": 124, 
+    "title": "Grand Challenges of Hyperscale Hyperconvergence Big Data Cloud Autotomation Powered by Software-Defined-Infrastructure when Moore's Law Does Not Matter Anymore",
+    "description": "The enterprise is being consumerized, and the consumer is being enterprised. Moore's Law does not matter anymore, the future belongs to business virtualization powered by invisible service architecture, powered by hyperscale and hyperconvergence, and facilitated by vertical streaming and horizontal scaling and consolidation. Both buyers and sellers want instant results, and from paperwork to paperless to mindless is the ultimate goal for any seamless transaction. The sweetest sweet spot in innovation is automation. The most painful pain point for any business is the mismatch between supplies and demands instead of information asymmetry as before. The distinction between web-scale and enterprise-grade infrastructures has been diminishing, cloud computing and Big Data are being driven by each other, and there is no silver bullet one size fits all.",
+    "speakers": [24],
     "language": "",
     "complexity": "",
     "presentation": "",
