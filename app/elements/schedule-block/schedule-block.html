@@ -266,7 +266,6 @@
             'checkUrlParams(schedule, sessions)'
         ],
         checkUrlParams: function(schedule, sessions) {
-            console.log("-- checkUrlParams --")
             this.async(function() {
                 if (app.params && app.params.id) {
                     var session = app.findByPropertyValue(sessions, 'id', app.params.id);
@@ -278,7 +277,6 @@
             }, 1000);
         },
         _concatClass: function(basic, target) {
-            console.log("-- _concatClass --")
             return basic + ' ' + target;
         },
         _sessionTap: function(event) {
@@ -287,8 +285,6 @@
         },
         _openSession: function(session) {
             this.selectedSession = session;
-            console.log("-- Selected Session --")
-            console.log(this.selectedSession)
             this.opened = true;
             this.$.sessionDialog.open();
         },
