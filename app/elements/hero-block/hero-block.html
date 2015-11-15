@@ -13,6 +13,11 @@
                 color: #4E4E4E;
             }
 
+            .paper-tab {
+                flex: none;
+                padding: 0 10px;
+            }
+
             .nav-link {
                 color: inherit;
             }
@@ -98,7 +103,7 @@
                 <paper-toolbar>
                     <paper-icon-button class="visible-xs" icon="menu" on-tap="togglePanel"></paper-icon-button>
                     <div class="flex hidden-xs">
-                        <a data-route="home" href="/" hidden="{{hideLogo}}">
+                        <a data-route="home" href="/" hidden$="{{hideLogo}}">
                             <img class="logo" src="../../images/silicon_valley/logo-white.svg" alt="GDG DevFest 2015">
                         </a>
                     </div>
