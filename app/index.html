@@ -59,6 +59,7 @@
 <body id="body" unresolved class="fullbleed layout vertical">
     <span id="browser-sync-binding"></span>
     <template is="dom-bind" id="app">
+        <app-data speakers="{{speakers}}" sessions="{{sessions}}" posts="{{posts}}" partners="{{partners}}" schedule="{{schedule}}"></app-data>
         <paper-drawer-panel id="paperDrawerPanel" force-narrow>
             <paper-header-panel drawer class="drawer" mode="seamed">
                 <paper-toolbar class="tall">
@@ -77,6 +78,7 @@
                 <paper-menu class="list" attr-for-selected="data-route" selected="{{route}}" on-iron-select="onMenuSelect">
                     <a data-route="#!/home" href="/">Home</a>
                     <a data-route="#!/blog" href="/blog">Blog</a>
+                    <a data-route="#!/schedule" href="/schedule">Schedule</a>
                     <a data-route="#!/speakers" href="/speakers">Speakers</a>
                     <!-- <a data-route="contact" href="/contact">Contact</a> -->
                 </paper-menu>
@@ -96,21 +98,24 @@
                                             <p class="description">The biggest Google related event in the country carefully crafted for you by the GDG community! Awesome speakers and lot's of fun!</p>
                                             <p class="slogan">Learn new technologies, Make New Connections!</p>
                                             <div class="links layout horizontal align-pb-block">
-                                                <a href="http://goo.gl/forms/xisi9OgVGE" target="_blank">
-                                                    <paper-button noink>
-                                                        Become a speaker
+                                                <a data-route="schedule" href="#!/schedule">
+                                                    <paper-button class="colorful" raised>
+                                                        View the Schedule
                                                     </paper-button>
                                                 </a>
+                                                <!--
                                                 <a href="http://goo.gl/forms/UZvtPBnKE7" target="_blank">
                                                     <paper-button noink>
                                                     Give a Lightning Talk
                                                     </paper-button>
                                                 </a>
+                                                -->
                                                 <!-- <a href="#pricetable"> -->
-                                                    <a href="https://www.eventbrite.com/e/silicon-valley-devfest-2015-tickets-18988002627" target="_blank"><paper-button class="colorful" raised>
+                                                <!-- <a href="https://www.eventbrite.com/e/silicon-valley-devfest-2015-tickets-18988002627" target="_blank"><paper-button class="colorful" raised>
                                                         Register
                                                     </paper-button></a>
                                                 </a>
+                                                -->
                                             </div>
                                         </div>
                                         <div class="flex relative right-section">
@@ -155,6 +160,22 @@
                             <blog-block id="blog" class="container-atop" source="../../data/blog.json"></blog-block>
                             <footer-block></footer-block>
                         </section>
+
+                        
+                        <!-- Schedule Block --> 
+                        <section data-route="schedule">
+                            <hero-block class="section-shadow container-before-atop bottom-tabs" style="background: #009688; color: #fff;">
+                                <div class="top-section">
+                                    <div class="title-wrapper layout horizontal">
+                                        <h3 class="self-end">Schedule</h3>
+                                    </div>
+                                </div>
+                            </hero-block>
+                            <schedule-block id="schedule-block" class="container-atop" schedule="{{schedule}}" sessions="{{sessions}}"></schedule-block>
+                            <footer-block></footer-block>
+                        </section>
+                        <!-- End Schedule Block -->
+
                         
                         <section data-route="speakers">
                             <hero-block class="section-shadow container-before-atop" style="background: #00BCD4; color: #fff;">
