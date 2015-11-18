@@ -231,5 +231,14 @@
     "complexity": "",
     "presentation": "",
     "video": ""
+  }, {
+    "id": 125, 
+    "title": "Angular 2 and Firebase",
+    "description": "Learn how to build the next generation of apps using Angular 2 and Firebase. We will walk through the basics of Angular 2, learn about the new features and concepts introduced since Angular 1.x, and see how we can nicely integrate them with Firebase to create beautifully-architected real-time web apps with the latest technologies.",
+    "speakers": [25],
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "video": ""
   }
 ]
