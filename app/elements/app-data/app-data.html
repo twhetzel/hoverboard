@@ -66,12 +66,43 @@
                     var timeslot = day.timeslots[j];
                     for (var k = 0, sessionsLen = timeslot.sessions.length; k < sessionsLen; k++) {
                         for (var l = 0, subSessionsLen = timeslot.sessions[k].length; l < subSessionsLen; l++) {
+                            //console.log(subSessionsLen) 
                             var session = this._getSession(timeslot.sessions[k][l]);
                             if(!session.track) {
                                 session.track = day.tracks[k];
                             }
                             session.startTime = timeslot.startTime;
-                            session.endTime = subSessionsLen > 1 ? this._getEndTime(day.date, timeslot.startTime, timeslot.endTime, subSessionsLen, l + 1) : timeslot.endTime;
+                    
+                            // Calculate endTime and modify for sessions with uneven timeslot divisions
+                            var modifyTime = false;
+                            if (subSessionsLen == 1) {
+                                session.endTime = timeslot.endTime;
+                                //console.log(session.endTime)
+                            }
+                            if (subSessionsLen % 2 == 0) {
+                                session.endTime = subSessionsLen > 1 ? this._getEndTime(day.date, timeslot.startTime, timeslot.endTime, subSessionsLen, l + 1, modifyTime) : timeslot.endTime;
+                            }
+                            // If odd number of sessions (clue to uneven time division), modify the endTime
+                            if (Math.abs(subSessionsLen % 2) == 1 && subSessionsLen != 1) {
+                                //console.log("** Odd **")
+                                //console.log(l)
+                               
+                                // If l < subSessionLen, remove 10 from endTime
+                                if (l < subSessionsLen - 1) {
+                                    //console.log("** Modified time **")
+                                     modifyTime = true;
+                                     session.endTime = this._getEndTime(day.date, timeslot.startTime, timeslot.endTime, subSessionsLen, l + 1, modifyTime);
+                                    //console.log(session.endTime)
+                                }
+                                else {
+                                    session.endTime = this._getEndTime(day.date, timeslot.startTime, timeslot.endTime, subSessionsLen, l + 1, modifyTime);
+                                    //console.log(session.endTime)
+                                }
+                                // Re-set value after each loop
+                                modifyTime = false;
+
+                            }
+
                             this._scheduleRaw[i].timeslots[j].sessions[k][l] = session;
                         }
                     }
@@ -101,13 +132,25 @@
                 }
             }
         },
-        _getEndTime: function(date, startTime, endTime, totalNumber, number) {
+        _getEndTime: function(date, startTime, endTime, totalNumber, number, modifyTime) {
             var timezone = new Date().toString().match(/([A-Z]+[\+-][0-9]+.*)/)[1],
                 timeStart = new Date(date + ' ' + startTime + ' ' + timezone).getTime(),
                 timeEnd = new Date(date + ' ' + endTime + ' ' + timezone).getTime(),
                 difference = Math.floor((timeEnd - timeStart) / totalNumber),
                 result = new Date(timeStart + difference * number);
-            return result.getHours() + ':' + result.getMinutes();
+                
+                Date.prototype.subTime= function(h,m){
+                    this.setHours(this.getHours()-h);
+                    this.setMinutes(this.getMinutes()-m);
+                    return this;
+                }
+                // If modifyTime is true, adjust time to handle uneven time slots
+                if (modifyTime) {
+                    result.subTime(0, 10);
+                }
+                // Update to get 2 digits when minutes are 00
+                console.log( result.getHours() + ':' + (result.getMinutes()<10?'0':'') + result.getMinutes() )
+            return result.getHours() + ':' + (result.getMinutes()<10?'0':'') + result.getMinutes();
         }
     });
 </script>
