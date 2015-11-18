@@ -1,117 +1,12 @@
 [{
     "date": "2015-11-21",
-    "dateReadable": "Track 1",
+    "dateReadable": "November 21",
     "tracks": [{
-        "title": "Google Bldg CL2"
-    }],
-    "timeslots": [{
-        "startTime": "08:30",
-        "endTime": "09:00",
-        "sessions": [
-            [1001]
-        ]
-    }, {
-        "startTime": "09:00",
-        "endTime": "09:50",
-        "sessions": [
-            [102]
-        ]
-    }, {
-        "startTime": "10:00",
-        "endTime": "10:50",
-        "sessions": [
-            [104]
-        ]
-    }, {
-        "startTime": "11:00",
-        "endTime": "12:00",
-        "sessions": [
-            [123]
-        ]
-    }, {
-        "startTime": "12:00",
-        "endTime": "01:00",
-        "sessions": [
-            [1002]
-        ]
-    }, {
-        "startTime": "01:00",
-        "endTime": "01:10",
-        "sessions": [
-            [109]
-        ]
-    }, {
-        "startTime": "01:10",
-        "endTime": "01:20",
-        "sessions": [
-            [107]
-        ]
-    }, {
-        "startTime": "01:20",
-        "endTime": "01:30",
-        "sessions": [
-            [117]
-        ]
-    }, {
-        "startTime": "01:30",
-        "endTime": "01:40",
-        "sessions": [
-            [114]
-        ]
-    }, {
-        "startTime": "01:40",
-        "endTime": "01:50",
-        "sessions": [
-            [118]
-        ]
-    }, {
-        "startTime": "01:50",
-        "endTime": "02:00",
-        "sessions": [
-            [111]
-        ]
-    }, {
-        "startTime": "02:00",
-        "endTime": "02:10",
-        "sessions": [
-            [124]
-        ]
-    }, {
-        "startTime": "02:10",
-        "endTime": "02:20",
-        "sessions": [
-            [108]
-        ]
-    }, {
-        "startTime": "02:30",
-        "endTime": "03:00",
-        "sessions": [
-            [106]
-        ]
-    }, {
-        "startTime": "03:00",
-        "endTime": "03:50",
-        "sessions": [
-            [101]
-        ]
-    }, {
-        "startTime": "04:00",
-        "endTime": "04:50",
-        "sessions": [
-            [120]
-        ]
-    }, {
-        "startTime": "05:00",
-        "endTime": "06:00",
-        "sessions": [
-            [112]
-        ]
-    }]
-}, {
-    "date": "2015-11-21",
-    "dateReadable": "Track 2",
-    "tracks": [{
-        "title": "Google Bldg CL2"
+        "title": "Maxwell room, Google Bldg CL3"
+        }, {
+        "title": "Crane Beach room, Google Bldg CL2"
+        }, {
+        "title": "Avidar rooom, Google Bldg CL3"
     }],
     "timeslots": [{
         "startTime": "08:30",
@@ -123,13 +18,15 @@
         "startTime": "09:00",
         "endTime": "10:00",
         "sessions": [
-            [116]
+            [116],
+            [102]
         ]
     }, {
         "startTime": "10:00",
         "endTime": "12:00",
         "sessions": [
-            [103]
+            [103],
+            [104, 123]
         ]
     }, {
         "startTime": "12:00",
@@ -138,28 +35,40 @@
             [1002]
         ]
     }, {
-        "startTime": "01:00",
-        "endTime": "02:00",
+        "startTime": "1:00",
+        "endTime": "2:00",
         "sessions": [
-            [113]
+            [113],
+            [109, 107, 117, 114, 118, 111]
         ]
     }, {
-        "startTime": "02:00",
-        "endTime": "03:00",
+        "startTime": "2:00",
+        "endTime": "3:00",
         "sessions": [
-            [115]
+            [115],
+            [124, 108, 106]
         ]
     }, {
-        "startTime": "03:00",
-        "endTime": "04:00",
+        "startTime": "3:00",
+        "endTime": "4:00",
         "sessions": [
-            [119]
+            [119],
+            [101]
         ]
     }, {
-        "startTime": "05:00",
-        "endTime": "06:00",
+        "startTime": "4:00",
+        "endTime": "5:00",
         "sessions": [
-            [122]
+            [125],
+            [120]
+        ]
+    }, {
+        "startTime": "5:00",
+        "endTime": "6:00",
+        "sessions": [
+            [122], 
+            [112],
+            [105]
         ]
     }]
 }]
