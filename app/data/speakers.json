@@ -169,19 +169,6 @@
         "link": "https://twitter.com/emil10001"
     }]
 }, {
-    "id": 9,
-    "name": "Martin Omander",
-    "title": "Program Manager for Google Developer Relations",
-    "company": "Google",
-    "country": "USA",
-    "photoUrl": "../../images/people/martin_omander.jpg",
-    "bio": "",
-    "tags": ["Community"],
-    "socials": [{
-        "name": "Google+",
-        "link": "https://plus.google.com/u/0/+MartinOmander"
-    }]
-}, {
     "id": 10,
     "name": "Justin Ribeiro",
     "title": "Software Engineer",
@@ -395,19 +382,6 @@
         "link": "https://plus.google.com/u/0/102058450286415797711"
     }]
 }, {
-    "id": 21,
-    "name": "Keven Wang",
-    "title": "Senior Technical Staff",
-    "company": "SalesforceIQ",
-    "country": "USA",
-    "photoUrl": "",
-    "bio": "Keven Wang is a Senior Member of Technical Staff at SalesforceIQ, where he leads the Chrome extension project, building it from zero into the fastest-growing client at RelateIQ. On this journey, Keven architected Chrome extension to enable rapid deployment and code-sharing with RelateIQ's web-app client using AngularJS. Keven has delivered 10+ features in Chrome extension in 12 months, leveraging backend infrastructure on email / calendar sync (IMAP, Google Calendar API) and push notifications (Google Cloud Messaging). Keven joined RelateIQ in 2013, prior to its acquisition by Salesforce in 2014.",
-    "tags": ["Chrome", "JavaScript"],
-    "socials": [{
-        "name": "Google+",
-        "link": "https://plus.google.com/u/0/109191163123171982574"
-    }]
-}, {
     "id": 22,
     "name": "Valentyn Shybanov",
     "title": "Software Engineer",
@@ -467,5 +441,31 @@
     "photoUrl": "",
     "bio": "Cloudata Czar and CloudBnB Marketplace Builder and Operator (www.hwswworld.com), has accumulated over 20 years of experience in automation, which is part of his passion instead of career. He started his career in the EDA industry working for two public companies on chip design automation before he started his own startup journey as a self-taught businessman by bootstrapping a few startups including Cloudata Inc.",
     "tags": ["Hyperscale Hyperconvergence"]
+}, {
+    "id": 25,
+    "name": "Uri Shaked",
+    "title": "Senior Developer",
+    "company": "Blackberry",
+    "country": "ISR",
+    "photoUrl": "../../images/people/uri_shaked.jpg",
+    "bio": "Uri started developing software at the age of 12. Since then, he's been pursuing his passion for technology, both professionally and through notable side projects and community activities. He is a Google Developer Expert for AngularJS, Web Technologies and Firebase. He created the popular angular-moment open source module, regularly speaks about Web and cloud-related technologies in conferences and organizes the annual Israeli AngularJS conference. Among his interests are 3d printing, electronics, reverse engineering, hardware hacking, playing music and Salsa dancing.",
+    "tags": ["Firebase", "Angular"],
+    "badges": [{
+        "name": "GDE",
+        "description": "Web Technologies and Firebase Developer Expert",
+        "link": "https://developers.google.com/experts/people/uri-shaked"
+    }, {
+        "name": "GDG",
+        "description": "Google Developers Group Tel-Aviv",
+        "link": "https://developers.google.com/groups/chapter/104207746710491978555/"  
+    }],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/+UriShaked"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/UriShaked"
+
+    }]
     }
 ]
