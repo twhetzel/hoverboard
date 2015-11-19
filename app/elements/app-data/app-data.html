@@ -75,15 +75,15 @@
                     
                             // Calculate endTime and modify for sessions with uneven timeslot divisions
                             var modifyTime = false;
-                            if (subSessionsLen == 1) {
+                            if (subSessionsLen === 1) {
                                 session.endTime = timeslot.endTime;
                                 //console.log(session.endTime)
                             }
-                            if (subSessionsLen % 2 == 0) {
+                            if (subSessionsLen % 2 === 0) {
                                 session.endTime = subSessionsLen > 1 ? this._getEndTime(day.date, timeslot.startTime, timeslot.endTime, subSessionsLen, l + 1, modifyTime) : timeslot.endTime;
                             }
                             // If odd number of sessions (clue to uneven time division), modify the endTime
-                            if (Math.abs(subSessionsLen % 2) == 1 && subSessionsLen != 1) {
+                            if (Math.abs(subSessionsLen % 2) === 1 && subSessionsLen !== 1) {
                                 //console.log("** Odd **")
                                 //console.log(l)
                                
@@ -143,13 +143,13 @@
                     this.setHours(this.getHours()-h);
                     this.setMinutes(this.getMinutes()-m);
                     return this;
-                }
+                };
                 // If modifyTime is true, adjust time to handle uneven time slots
                 if (modifyTime) {
                     result.subTime(0, 10);
                 }
                 // Update to get 2 digits when minutes are 00
-                console.log( result.getHours() + ':' + (result.getMinutes()<10?'0':'') + result.getMinutes() )
+                //console.log( result.getHours() + ':' + (result.getMinutes()<10?'0':'') + result.getMinutes() )
             return result.getHours() + ':' + (result.getMinutes()<10?'0':'') + result.getMinutes();
         }
     });
