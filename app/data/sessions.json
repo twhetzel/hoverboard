@@ -8,7 +8,11 @@
     "id": 1002,
     "title": "Lunch",
     "description": "Get some yummy food and enjoy moar networking"
-  },
+  }, {
+    "id": 1003,
+    "title": "TBD",
+    "description": "Stay tuned for more details"
+    },
   {
     "id": 101,
     "title": "Beacons, Hinting, and You: Context and Discovery",
