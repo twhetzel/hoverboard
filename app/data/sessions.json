@@ -101,15 +101,6 @@
     "presentation": "",
     "video": ""
   }, {
-    "id": 110, 
-    "title": "How Google can help your career in technology",
-    "description": "",
-    "speakers": [9],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  }, {
     "id": 111, 
     "title": "Let's Play! - Intro to Google Cardboard",
     "description": "When I started making a Cardboard App, I had a lot to learn. I didn't know much about OpenGL, things kept breaking when I changed little details... it was painful. Not being a very sensible person, I kept going, and I'd like to share with you some of the things I found out.",
@@ -244,5 +235,11 @@
     "complexity": "",
     "presentation": "",
     "video": ""
+  }, {
+    "id": 126, 
+    "title": "Firebase + Angular game programming... and becoming a better Dad",
+    "description": "Game programming is challenging. That makes it a great way to learn new developer tools and push them to their limits. In this talk, Martin will describe what he learned about Firebase and Angular by building a multi-player game, and how he became a better Dad in the process.",
+    "speakers": [9]
+
   }
 ]
