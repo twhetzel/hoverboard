@@ -169,6 +169,19 @@
         "link": "https://twitter.com/emil10001"
     }]
 }, {
+    "id": 9,
+    "name": "Martin Omander",
+    "title": "Program Manager for Google Developer Relations",
+    "company": "Google",
+    "country": "USA",
+    "photoUrl": "../../images/people/martin_omander.jpg",
+    "bio": "Martin has been a Googler for the last nine years, working as a Technical Account Manager and Program Manager. The last few years Martin has been working with developer communities in North America, and writing code when he can get away with it.",
+    "tags": ["Firebase", "AngularJS"],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/u/0/+MartinOmander"
+    }]
+}, {
     "id": 10,
     "name": "Justin Ribeiro",
     "title": "Software Engineer",
@@ -247,7 +260,7 @@
     "country": "UK",
     "photoUrl": "../../images/people/gerard_sans.jpg",
     "bio": "Gerard is a multi-talented Computer Science Engineer specialised in Web. He is now an AngularJS fanboy and a community activist fighting for the JavaScript revolution. He has lived and worked for all sorts of companies in Germany, Brazil, UK and Spain. He is always up for a good challenge. He enjoys running AngularJS Labs London, mentoring AngularJS students, participating in the community, giving talks and writing technical articles at Medium.",
-    "tags": ["Chrome", "JavaScript"],
+    "tags": ["Chrome", "AngularJS"],
     "badges": [{
         "name": "GDE",
         "description": "Web Technologies Developer Expert",
@@ -449,7 +462,7 @@
     "country": "ISR",
     "photoUrl": "../../images/people/uri_shaked.jpg",
     "bio": "Uri started developing software at the age of 12. Since then, he's been pursuing his passion for technology, both professionally and through notable side projects and community activities. He is a Google Developer Expert for AngularJS, Web Technologies and Firebase. He created the popular angular-moment open source module, regularly speaks about Web and cloud-related technologies in conferences and organizes the annual Israeli AngularJS conference. Among his interests are 3d printing, electronics, reverse engineering, hardware hacking, playing music and Salsa dancing.",
-    "tags": ["Firebase", "Angular"],
+    "tags": ["Firebase", "AngularJS"],
     "badges": [{
         "name": "GDE",
         "description": "Web Technologies and Firebase Developer Expert",
