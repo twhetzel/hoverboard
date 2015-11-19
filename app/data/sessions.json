@@ -241,5 +241,14 @@
     "description": "Game programming is challenging. That makes it a great way to learn new developer tools and push them to their limits. In this talk, Martin will describe what he learned about Firebase and Angular by building a multi-player game, and how he became a better Dad in the process.",
     "speakers": [9]
 
+  }, {
+    "id": 127,
+    "title": "Let's play Dart! (continued session)",
+    "description": "In this session you will explore how to write your first server-side Dart application. Come to this workshop to try and learn Dart, have fun and see how you can write awesome applications and be productive with it. Note: please don't forget to bring your laptop with downloaded Dart and some editor/IDE with Dart support. More info: https://www.dartlang.org/downloads/.",
+    "speakers": [5],
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "video": ""
   }
 ]
