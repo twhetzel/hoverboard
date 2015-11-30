@@ -30,7 +30,7 @@
     "speakers": [8],
     "language": "",
     "complexity": "",
-    "presentation": "",
+    "presentation": "http://ejf.io/android/intents/toc/",
     "video": ""
   },
   {
@@ -40,7 +40,7 @@
     "speakers": [7],
     "language": "",
     "complexity": "",
-    "presentation": "",
+    "presentation": " https://mimming.com/presos/firebase-overview",
     "video": ""
   },
   {
@@ -89,7 +89,7 @@
     "speakers": [2],
     "language": "",
     "complexity": "",
-    "presentation": "",
+    "presentation": "https://goo.gl/9Qxxuk",
     "video": ""
   } , {
     "id": 109,
@@ -125,7 +125,7 @@
     "speakers": [13],
     "language": "",
     "complexity": "",
-    "presentation": "",
+    "presentation": "https://bit.ly/introduction-to-rxjs",
     "video": ""
   }, {
     "id": 114, 
@@ -143,7 +143,7 @@
     "speakers": [15],
     "language": "",
     "complexity": "",
-    "presentation": "",
+    "presentation": "http://www.softwaretree.com/v1/white-paper-pdf/JDXA_Presentation.pdf",
     "video": ""
   }, {
     "id": 116, 
@@ -161,7 +161,7 @@
     "speakers": [17],
     "language": "",
     "complexity": "",
-    "presentation": "",
+    "presentation": "https://docs.google.com/presentation/d/1mVvtwE4KoFkvviTl5mxDdkzrj5G9E9Ez7_hqw8YeY0c/edit#slide=id.p",
     "video": ""
   }, {
     "id": 118, 
@@ -170,7 +170,7 @@
     "speakers": [18],
     "language": "",
     "complexity": "",
-    "presentation": "",
+    "presentation": "https://drive.google.com/file/d/0B9YdwIc-G2bpQ2Y4ZEk2MWloM00/view",
     "video": ""
   }, {
     "id": 119, 
@@ -179,7 +179,7 @@
     "speakers": [19],
     "language": "",
     "complexity": "",
-    "presentation": "",
+    "presentation": "http://lynnlangit.com/2015/10/27/getting-over-4-million-tps-with-nosql-on-the-google-cloud-with-aerospike/",
     "video": ""
   }, {
     "id": 120, 
@@ -188,7 +188,7 @@
     "speakers": [20],
     "language": "",
     "complexity": "",
-    "presentation": "",
+    "presentation": "https://drive.google.com/folderview?id=0B22KXlqHz6ZNfjNXTzk1U3JHUkJ6VjJ3dnJKNzVtNjRUM3Q2WFNqWGI2Q3RadERqUlVrOEU&usp=sharing",
     "video": ""
   }, {
     "id": 121, 
