@@ -189,6 +189,7 @@
                                 <div class="sessions-wrapper layout vertical-horizontal flex">
                                     <template is="dom-repeat" items="[[timeslot.sessions]]" as="session">
                                         <div class="session layout vertical flex">
+                                            
                                             <template is="dom-repeat" items="[[session]]" as="subSession">
                                                 <div class$="[[ _concatClass('sub-session layout horizontal', subSession.mainTag) ]]" on-tap="_sessionTap">
                                                     <div class="track track-dot">
@@ -221,6 +222,12 @@
                                                                 <span>[[subSession.track.title]]</span>
                                                             </div>
                                                         </div>
+                                                        <template is="dom-if" if="[[subSession.presentation]]">
+                                                            <div class="session-meta layout horizontal">
+                                                                <iron-icon class="session-meta-icon" icon="class"></iron-icon>
+                                                                <span>Presentation Available</span>
+                                                            </div>              
+                                                        </template>
                                                     </div>
                                                 </div>
                                             </template>
